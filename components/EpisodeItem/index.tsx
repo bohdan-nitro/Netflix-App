@@ -3,16 +3,10 @@ import {Text, View} from "../Themed";
 import styles from "./style";
 import {Image} from "react-native";
 import {AntDesign} from "@expo/vector-icons";
+import {Episode} from "../../types";
 
 interface EpisodeItemProps {
-    episode: {
-        id: string,
-        title: string,
-        poster: string,
-        duration: string,
-        plot: string,
-        vide: string
-    }
+    episode: Episode
 }
 
 const EpisodeItem = (props: EpisodeItemProps) => {

@@ -23,3 +23,14 @@ export type HomeParamList = {
 export type TabTwoParamList = {
   TabTwoScreen: undefined;
 };
+
+export type Episode = {
+  episode: {
+    id: string,
+    title: string,
+    poster: string,
+    duration: string,
+    plot: string,
+    vide: string
+  }
+}
