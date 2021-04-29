@@ -91,7 +91,7 @@ const MovieDetailScreen = () => {
                 ListHeaderComponent={HeaderComponent}
                 data={currentSeason.episodes.items}
                 style={{marginBottom: 250}}
-                renderItem={({item}) => <EpisodeItem episode={item}/>}/>
+                renderItem={({item}) => <EpisodeItem episode={item} onPress={setCurrentEpisode}/>}/>
         </View>
     )
 
