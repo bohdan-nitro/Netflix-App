@@ -31,6 +31,6 @@ export type Episode = {
     poster: string,
     duration: string,
     plot: string,
-    vide: string
+    video: string
   }
 }

@@ -1,3 +1,4 @@
+
 export default {
     id: 'movie1',
     title: 'Suits',
@@ -16,17 +17,17 @@ export default {
                 items: [{
                     id: 'episode1',
                     title: '1. Pilot Part 1 & 2',
-                    poster: 'https://i9.ytimg.com/vi/i7GIGKvTlUk/mqdefault.jpg?time=1619716500000&sqp=CJTTq4QG&rs=AOn4CLCs3I4QwTRVEQdZU1AKO92HfUOrnQ',
+                    poster: 'https://i9.ytimg.com/vi_webp/7a-e-vdLcgo/mqdefault.webp?time=1620316800000&sqp=CICl0IQG&rs=AOn4CLBSlxthxTQjetEOqRW9Wg4tfJNkjA',
                     duration: '1h 21m',
                     plot: 'When Harvey\'s promotion requires him to recruit and hire a graduate of Harvard Law, he chooses Mike Ross. But Mike doesn\'t actualy have a law degree',
-                    video: 'https://8.fakaza.cyou/download/umMI2-XSg6g/junu-deep-feral-druid-ep-10/',
+                    video: 'url("../videos/teaser.mp4")',
                 }, {
                     id: 'episode2',
                     title: '2. Errors and Omissions',
                     poster: 'https://i9.ytimg.com/vi/umMI2-XSg6g/mqdefault.jpg?time=1619716800000&sqp=CMDVq4QG&rs=AOn4CLDqJP5V8nYj3zemb_Zm0iw2pwnoDQ',
                     duration: '43m',
                     plot: 'An open-and-shut case becomes anything but when Harvey is accused of an inappropriate dalliance with a married woman.',
-                    video: 'https://www.youtube.com/watch?v=umMI2-XSg6g&t=269s&ab_channel=GoddanLifestyle.mp4',
+                    video: 'https://www.youtube.com/watch?v=k6d7HPHNBI8&ab_channel=GoddanLifestyle',
                 }]
             }
         }, {

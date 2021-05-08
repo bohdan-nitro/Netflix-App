@@ -24,7 +24,7 @@ const HomeCategory = (props: HomeCategoryProps) => {
     const navigation = useNavigation();
 
     const onMovieScreen = () => {
-        navigation.navigate("MovieDetailsScreen", {id: movie.id})
+        navigation.navigate("MovieDetailScreen", {id: movie.id})
     }
 
     return (
@@ -32,14 +32,8 @@ const HomeCategory = (props: HomeCategoryProps) => {
             <Text style={styles.title}>{category.title}</Text>
             <FlatList data={category.movies} renderItem={({item}) => (
                 <Pressable onPress={() => onMovieScreen(item)}>
-                    <Image style={styles.image} source={{
-                        uri: item.poster
-                    }}/>
-                </Pressable>
-
-            )}
-                      horizontal
-            />
+                    <Image style={styles.image} source={{uri: item.poster}}/>
+                </Pressable>)} horizontal/>
 
         </>
     );
